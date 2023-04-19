@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+
+
+#rectangle {
+	width: 1700px;
+	height: 100px;
+	background: transparent;
+  backdrop-filter: blur(8px);
+  position: fixed;top: -15px;
+  left: -170px;
+  z-index:5;
+}
+
+body{
+background-color: white;
+  height: 2400px;
+}
+
+w{
+font-size: 50px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top: 10px; left: 400px;
+color: black;
+  z-index:9;
+}
+
+w:hover{
+  transform: scale(1.1);
+  transition: transform 1s ease-out;
+}
+
+
+.active{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 50px;
+color: black;
+  z-index: 10;
+}
+
+.termin{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1370px;
+color: black;
+  z-index: 10;
+}
+.zapisy{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1200px;
+color: black;
+  z-index: 10;
+}
+
+.cennik{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1280px;
+color: black;
+  z-index: 10;
+}
+
+.usługi{
+  width: 600px;
+  height:400px;
+  position: relative; top: 450px;
+  left: 400px;
+}
+
+.główne{
+position:relative; left: 250px;
+  top: 150px;
+  weight:800px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+
+c{
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-size: 80px;
+  position: relative; left: 400px;
+  top: 650px;
+}
+
+g{
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-size:59px;
+  position:relative; top: -50px;
+  left:-200px;
+}
+
+#rectangle4 {
+	width: 300px;
+	height: 400px;
+	background-image: url("FISZKA1.png");
+  position:  relative;top: -100px;
+  left: 170px;
+  border-radius: 20px;
+}
+
+#rectangle3 {
+	width: 300px;
+	height: 400px;
+	background-image: url("FISZKA2.png");
+  position:  relative;top: 300px;
+  left: 570px;
+  border-radius: 20px;
+}
+
+#rectangle2 {
+	width: 300px;
+	height: 400px;
+	background-image: url("FISZKA3.png");
+  position:  relative;top: 700px;
+  left: 970px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
